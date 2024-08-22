@@ -1,0 +1,29 @@
+:root {
+  --eggshell: hsl(30, 54%, 90%);
+  --roseWhite: hsl(330, 100%, 98%);
+  --wengeBrown: hsl(30, 10%, 34%);
+  --darkCharcoal: hsl(24, 5%, 18%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --darkRaspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(30, 18%, 87%);
+}
+body {
+  background-color: var(--eggshell);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/outfit/Outfit-VariableFont_wght.ttf") format(trueType);
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url("./fonts/young-serif/YoungSerif-Regular.ttf") format(trueType);
+}
