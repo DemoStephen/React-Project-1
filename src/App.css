@@ -23,6 +23,9 @@ h2 {
   margin: 0 0 1rem 0;
   color: var(--Nutmeg);
 }
+h1 {
+  color: var(--darkCharcoal);
+}
 li {
   list-style-position: inside;
   text-indent: -1em;
