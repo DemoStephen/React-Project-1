@@ -8,17 +8,11 @@ export default function App() {
   return (
     <>
       <Header />
-      <section className="preparation">
-        <h3 style={{ color: "var(--darkRaspberry)" }}>Preparation time</h3>
-        <Preparation />
-      </section>
-      <h2>Ingredients</h2>
+      <Preparation />
       <Ingredients />
       <hr />
-      <h2>Instruction</h2>
       <Instruction />
       <hr />
-      <h2>Nutrition</h2>
       <Nutrition />
     </>
   );
